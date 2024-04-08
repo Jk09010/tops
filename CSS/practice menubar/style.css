@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+
+}
+body{
+    /* background-color: aqua; */
+}
+.headder{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+  justify-content: space-between;
+}
+.headder .logo {
+
+    flex: 0.2;
+}
+.headder .logo img{
+    width: 30px;
+
+}
+.spacer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.meanu{
+    display: flex;
+    gap: 100px;
+    flex: 2;
+}
+.menu_list ul {
+    display: flex;
+    gap: 20px;
+  
+}
+.account{
+    display: flex;
+    gap: 100px;
+    /* flex: ; */
+  
+}
+
+.account .card {
+    display: flex;
+    gap: 15px;
+}
+.account .btn{
+    gap: 15px;
+    display: flex;
+}
