@@ -1,0 +1,94 @@
+Module (CSS and CSS 3) -2
+
+Q.1.What are the benefits of using CSS?
+Cascading Style Sheets, commonly known as CSS, is a powerful tool in web development that helps to separate the structure of a website from its presentation. The primary function of CSS is to define the styling and layout of web pages, making them more visually appealing, user-friendly, and accessible.
+
+Q.2.What are the disadvantages of CSS?
+Yes, there are some drawbacks to CSS. It can be complex for beginners, leading to a steep learning curve. Compatibility issues with different web browsers can also arise. Overusing CSS can potentially slow down a website's performance.
+
+Q.3.What is the difference between CSS2 and CSS3?
+CSS2 and CSS3 are different versions of the Cascading Style Sheets (CSS) language used for describing the presentation of a document written in HTML or XML. Here are some key differences between the two versions:
+
+Selectors: CSS3 introduces new and more powerful selectors, such as attribute selectors, nth-child selectors, and more, which allow for more specific targeting of elements.
+
+Box Model: CSS3 introduces new properties and values for the box model, such as box-sizing and border-radius, which give more control over the layout and appearance of elements.
+
+Media Queries: CSS3 introduces media queries, which allow for the adaptation of styles based on different device characteristics, such as screen size, orientation, and resolution.
+
+Transitions and Animations: CSS3 introduces new properties for creating transitions and animations without the need for JavaScript or Flash.
+Flexbox and Grid Layout: CSS3 introduces new layout models, such as Flexbox and Grid Layout, which provide more control over the arrangement of elements on a page.
+Multi-column Layout: CSS3 introduces properties for creating multi-column layouts, which were not available in CSS2.
+These are just a few examples of the differences between CSS2 and CSS3. CSS3 represents a significant advancement in the capabilities and flexibility of styling web documents compared to CSS2.
+
+Q.4.Name a few CSS style components
+A CSS style consists of several components that define how an HTML element should be visually presented on a web page. These components work together to create the desired appearance of web content. The main components of a CSS style include:
+1. **Selectors:** Selectors are used to target specific HTML elements to which the style will be applied. CSS selectors can target elements by their HTML tag name (element selectors), class names (class selectors), IDs (ID selectors), attributes, and more.
+Example selectors:
+- Element selector: `p { ... }`
+- Class selector: `.my-class { ... }`
+- ID selector: `#my-id { ... }`
+2. **Properties:** Properties are the individual style attributes that you want to set for the selected elements. Each property corresponds to a specific aspect of an element's appearance, such as color, font size, margin, padding, or border.
+Example properties:
+- `color`: Sets the text color.
+- `font-size`: Defines the font size.
+- `margin`: Specifies the margin around an element.
+- `padding`: Sets the padding inside an element.
+- `border`: Controls the border of an element.
+
+Q.5.What do you understand by CSS opacity?
+The CSS opacity property is used to specify the transparency of an element. In simple word, you can say that it specifies the clarity of the image. In technical terms, Opacity is defined as degree in which light is allowed to travel through an object.
+
+Q.6.How can the background color of an element be changed?
+To add background color in HTML, use the CSS background-color property.
+
+Q.7.How can image repetition of the backup be controlled?
+By using css property background repeat : no repeat;
+
+Q.8.What is the use of the background-position property?
+The background-position property sets the starting position of a background image.
+ By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+
+Q.9.Which property controls the image scroll in the background?
+The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+Q.10.Why should background and color be used as separate properties?
+There are two reasons behind this:
+It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+Color is an inherited property while the background is not. So this can make confusion further.
+
+Q.11.How to center block elements using CSS1?
+Center block elements using margin property: We need to specify the margin from left and right such that it looks centered. We do not need to do this manually, we have one property value “auto” which will automatically set the margin such that our block element is placed in the center.
+12.How to maintain the CSS specifications?
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Even though every browser supports CSS, there are many inconsistencies in the supported specification version. Some browsers even have their own implementation of the specification and have proprietary (vendor) prefixes.
+
+Q.13.What are the ways to integrate CSS as a web page?
+CSS may be added to HTML in three different ways. To style a single HTML element on the page, use Inline CSS in a style attribute. By adding CSS to the head section of our HTML document, we can embed an internal stylesheet. We can also connect to an external stylesheet that separates our CSS from our HTML.
+
+Q.14.What is embedded style sheets?
+Internal style sheet is also knownas embedded style sheets
+
+Q.15. What are the external style sheets?
+An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+
+Q.16.What are the advantages and disadvantages of using external style sheets?
+There are several advantages to using an external style sheet rather than an internal one:
+Separation of content and presentation: An external style sheet allows you to separate the content of your website (HTML) from the presentation (CSS). This makes it easier to maintain and update your website, as you only need to change the style sheet rather than making changes to the HTML of each individual page.
+Reusable styles: An external style sheet can be reused across multiple pages and websites, saving time and making it easier to maintain a consistent look and feel.
+Improved performance: An external style sheet is only loaded once, even if it is used on multiple pages. This can improve the performance of your website, as the browser does not need to download the same styles repeatedly.
+
+There are also some disadvantages to using an external style sheet:
+Additional HTTP request: An external style sheet requires an additional HTTP request to load, which can slightly increase the time it takes for the page to render.
+Limited control: With an external style sheet, you have less control over the specific elements on a page, as the styles are applied globally to all elements that use the same class or ID.
+Harder to override: It can be harder to override the styles in an external style sheet, as they are applied globally. To override a style, you need to use more specific selectors or use the !important declaration, which can make your style sheet more complex and difficult to maintain.
+
+Q.17.What is the meaning of the CSS selector?
+A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+Q.18.What are the media types allowed by CSS?
+Media Types in CSS3	Description all Default media types, used for all devices screen Devices with screens, such as desktops, laptops, phones, and more print Styles are applied when the document is printed speech For devices used in speech synthesis and screen reading projection	Devices like projectors, and presentation screens
+handheld Handheld devices such as smartphones, tablets, and more tv Specific for TV screens braille	Devices targeting Braille devices used for visual disablement 3d-glasses Devices like 3D glasses grid Grid-based devices like e-book readers.
+
+Q.19.What is the rule set?
+A CSS ruleset is a collection of statements that define the styles for various pieces or elements of an HTML document. The objective is to apply a set of properties with certain distinct qualities to a single, or a particular set of elements in the connected HTML page.
+A CSS ruleset consists of a selector and a declaration block. The selector selects the HTML elements to be styled, and the declaration block groups one or more CSS declarations separated by semicolons.
+
